@@ -1,27 +1,3 @@
-<!-- Code Challenge #5 | 25 Points -->
-
-<!-- Directions:
-
-Step 1:
-Select all of this document, copy and paste it into a new document in sublime text.
-
-Step 2:
-Inside of the .container div, insert typography tags h2, h3, h4, h5, h6. Add some content inside of each tag. 
-
-Step 3: 
-After each h tag, add a p tag with some content inside of it.
-
-Step 3:
-In the style tag, write some CSS for each of the tags you added to create a well-designed typography style tile. Consider things like font-family, font-size, color, letter-spacing, line-height, etc.
-
-Step 4: 
-Paste all the code from your sublime document back into github and commit your changes.
-
-BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
-
--->
-
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>Code Challenge #5</title>
@@ -32,12 +8,116 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 			}
 			header {
 				padding: 50px 0;
+				background-color: #ef6b8f;
 			}
 			header h1 {
 				text-align: center;
 			}
 			section {
 				padding: 25px 0;
+			}
+
+			.container {
+				text-align: center;
+				background-color: #40bdce;
+				padding: 20px 0;
+			}
+
+			@font-face {
+				font-family: 'Vanilla';
+				src: url('../font/Vanilla.eot');
+				src: url('../font/Vanilla.eot?#iefix') format('embedded-opentype'),
+					url('../font/Vanilla.woff') format('woff'),
+					url('../font/Vanilla.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: 'Vanilla';
+				src: url('../font/Vanilla.eot');
+				src: url('../font/Vanilla.eot?#iefix') format('embedded-opentype'),
+					url('../font/Vanilla.woff') format('woff'),
+					url('../font/Vanilla.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: 'Vanilla';
+				src: url('../font/Vanilla.eot');
+				src: url('../font/Vanilla.eot?#iefix') format('embedded-opentype'),
+					url('../font/Vanilla.woff') format('woff'),
+					url('../font/Vanilla.ttf') format('truetype');
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			@font-face {
+				font-family: 'Vanilla';
+				src: url('../font/Vanilla.eot');
+				src: url('../font/Vanilla.eot?#iefix') format('embedded-opentype'),
+					url('../font/Vanilla.woff') format('woff'),
+					url('../font/Vanilla.ttf') format('truetype');
+				font-weight: bold;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: 'Vanilla';
+				src: url('../font/Vanilla.eot');
+				src: url('../font/Vanilla.eot?#iefix') format('embedded-opentype'),
+					url('../font/Vanilla.woff') format('woff'),
+					url('../font/Vanilla.ttf') format('truetype');
+				font-weight: bold;
+				font-style: italic;
+			}
+
+
+			h2 {
+				font-family: "Vanilla";
+				color: #fff;
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+
+
+			h3 {
+				font-family: "Vanilla";
+				color: #fff;
+				font-size: 1.4em;
+				font-weight: bold;
+			}
+
+
+			h4 {
+				font-family: "Vanilla";
+				color: #fff;
+				font-size: 1.3em;
+				font-weight: bold;
+			}
+
+
+			h5 {
+				font-family: "Vanilla";
+				color: #fff;
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+
+
+			h6 {
+				font-family: "Vanilla";
+				color: #fff;
+				font-size: 1.1em;
+				font-weight: bold;
+			}
+
+			p {
+				font-family: "Vanilla"
+				font-size: .6em;
+				color: #dbe8ff;
+				font-style: italic;
 			}
 		</style>
 	</head>
@@ -47,6 +127,16 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+			<h2>The Safety Dance</h2>
+			<p>We can dace if we want to.</p>
+			<h3>We can leave your friends behind.</h3>
+			<p>'Cuz your friends don't dance, and if they don't dance, well, they're no friends of mine.</p>
+			<h4>Say, we can go where we want to</h4>
+			<p>A place where they will never find,</p>
+			<h5>And we can act like we come from out of this world.</h5>
+			<p>Leave the real one far behind.</p>
+			<h6>And we can dance</h6>
+			<p>Or sing.</p>
 			</div>
 		</section>
 		<footer>
